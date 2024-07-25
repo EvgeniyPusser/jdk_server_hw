@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 public class FileStorage implements Repository<String> {
-    private static final String LOG_PATH = "src/server/server/repository/history.txt";
+    private static final String LOG_PATH = "history.txt";
 
     @Override
     public void save(String text){
